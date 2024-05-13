@@ -1,0 +1,20 @@
+#Alberto Guzman Barrera
+import subprocess
+print("1.Crear Txt\n2.Crear carpeta Calificaciones\n3.Carpeta primer parcial\n4. Mover archivo misnotas.txt\n5.Salir\n")
+def ejectura(comado):
+     subprocess(comando, Shell=True)
+     opcion=int (input(" Selecciona una opcion: "))
+if opcion=='1':
+   ejecutar("touch misnotas.txt",shell=True)
+elif opcion=='2':
+   ejecutar("mkdir calificaciones",shell=True)
+elif opcion=='3':
+   ejecutar("cd /calificaciones",shell=True)
+elif opcion=='4':
+   ejecutar("mv misnotas.txt",shell=True)
+elif opcion=='5':
+   ejecutar("cd /Escritorio",shell=True)
+   ejecutar("mv Calculadora.py /primer parcial", shell=True)
+else:
+  print("Opcion no valida")
+  
