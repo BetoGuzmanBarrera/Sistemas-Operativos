@@ -13,7 +13,7 @@ class Impresora:
         print(f"La impresión {tarea} ha entrado a la cola de la impresora {self.nombre}")
         with controlador_impresora:
             print(f"La impresión {tarea} se está imprimiendo en {self.nombre}")
-            time.sleep(2)  # Cambiado a 2 segundos para pruebas más rápidas
+            time.sleep(2)  
             print(f"La impresión {tarea} ha liberado la cola de impresión de {self.nombre}")
 
 impresoras = [
